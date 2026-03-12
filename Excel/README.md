@@ -8,4 +8,12 @@ Data Cleaning And Pre-processing
 
 *Missing values - notice that for numeric values missing, we already have them as NULL, So no changes are made.
 
-*Outliers - Looking at the numeric values
+*Summary statistics i.e finding the MAX,MIN, Median and Average, we are now able to tell:
+
+     Which country has the highest level of unemployment?
+
+     What is the average access to sanitation services?
+
+     Which country has the lowest GDP?
+
+*Outliers - Focused on the economic indicators
