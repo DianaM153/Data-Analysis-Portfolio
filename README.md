@@ -8,7 +8,7 @@ Using a dataset containing regional and country-level indicators, the project de
 
 The goal is to identify **regional disparities, economic relationships, and trends in infrastructure access**.
 
----
+
 
 ## Dataset Description
 
@@ -29,7 +29,7 @@ The dataset contains country-level observations with the following variables:
 
 Source: United Nations Development Data
 
----
+
 
 ## Objectives
 
@@ -41,7 +41,7 @@ The project investigates several key analytical questions:
 * Is there a relationship between **unemployment rates and infrastructure access**?
 * How do **service access levels change over time**?
 
----
+
 
 ## Tools and Technologies
 
@@ -66,7 +66,7 @@ This project demonstrates the use of multiple tools commonly used by data analys
 * Data visualization
 * Trend analysis
 
----
+
 
 ## Data Processing Workflow
 
@@ -92,7 +92,7 @@ This project demonstrates the use of multiple tools commonly used by data analys
    * Developed maps and comparative charts
    * Highlighted trends in infrastructure access
 
----
+
 
 ## Key Metrics Created
 
@@ -104,7 +104,7 @@ Additional indicators were calculated to enrich the analysis:
 
 These metrics allow deeper insights into how economic and demographic factors influence service availability.
 
----
+
 
 ## Dashboard Insights
 
@@ -115,7 +115,7 @@ The Power BI dashboard highlights:
 * Relationship between **GDP and infrastructure access**
 * Population and unemployment context for each country
 
----
+
 
 ## Repository Structure
 
@@ -134,7 +134,7 @@ Power BI dashboard file (.pbix)
 visuals/
 Screenshots of charts and dashboard visuals
 
----
+
 
 ## Skills Demonstrated
 
@@ -145,7 +145,7 @@ Screenshots of charts and dashboard visuals
 * Dashboard storytelling
 * Working with real-world development datasets
 
----
+
 
 ## Author
 
