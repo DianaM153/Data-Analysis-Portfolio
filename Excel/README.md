@@ -1,4 +1,4 @@
-Cleaned Excel Files And EDA Files
+Data Cleaning And Pre-processing
 
 *First we split data into columns; the delimiter used is a semi colon, once that is done we can now look at our columns and rows to get to understand the data.
 
