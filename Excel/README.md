@@ -19,5 +19,8 @@ Data Cleaning And Pre-processing
 *Outliers - Focused on the economic indicators
 
 *We then do a regional comparison using pivot tables to summarize, we can clearly see that;
+  
   Sub-Saharan Africa has the lowest GDP, Lowest access to basic services and the highest rates of unemployment
+
+*Using Pivot table we do a summary to see changes in access to basic services and unemploment rates over time and also visualize the changes using a line chart, from our observation we can see that there are no significant changes over time.
 
