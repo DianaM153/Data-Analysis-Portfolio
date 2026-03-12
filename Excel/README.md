@@ -17,3 +17,7 @@ Data Cleaning And Pre-processing
      Which country has the lowest GDP?
 
 *Outliers - Focused on the economic indicators
+
+*We then do a regional comparison using pivot tables to summarize, we can clearly see that;
+  Sub-Saharan Africa has the lowest GDP, Lowest access to basic services and the highest rates of unemployment
+
