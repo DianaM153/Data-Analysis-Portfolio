@@ -149,6 +149,6 @@ Screenshots of charts and dashboard visuals
 
 ## Author
 
-[Diana Chepkoech]
+Diana Chepkoech
 
 Data Analyst Portfolio Project
