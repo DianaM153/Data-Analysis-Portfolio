@@ -1,8 +1,11 @@
 Sql Queries
+
 Regional Development Analysis
 Average water access by region
 
-  SELECT region,
+   SELECT
+   
+      region,
   
       ROUND(AVG(Pct_managed_drinking_water_services),2) AS avg_water_access
       
