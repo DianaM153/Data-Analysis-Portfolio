@@ -1,26 +1,42 @@
 Data Cleaning And Pre-processing
 
-*First we split data into columns; the delimiter used is a semi colon, once that is done we can now look at our columns and rows to get to understand the data.
+The dataset was prepared and explored to ensure it was suitable for analysis. The key steps are outlined below:
 
-*Look into the data types
+1. Data Structuring
 
-*Handle duplicates - There are no duplicates for this specific dataset.
+The raw dataset was split into columns using a semicolon (;) delimiter. This made the data easier to read and work with.
 
-*Missing values - notice that for numeric values missing, we already have them as NULL, So no changes are made.
+2. Data Type Validation
 
-*Summary statistics i.e finding the MAX,MIN, Median and Average, we are now able to tell:
+Each column’s data type was reviewed and aligned with its contents to support accurate analysis.
 
-     Which country has the highest level of unemployment?
+3. Duplicate Check
 
-     What is the average access to sanitation services?
+The dataset was checked for duplicate records, and none were identified.
 
-     Which country has the lowest GDP?
+4. Handling Missing Values
 
-*Outliers - Focused on the economic indicators
+Missing values in numeric columns were already represented as NULL. Since this was consistent across the dataset, no additional cleaning was required at this stage.
 
-*We then do a regional comparison using pivot tables to summarize, we can clearly see that;
-  
-  Sub-Saharan Africa has the lowest GDP, Lowest access to basic services and the highest rates of unemployment
+5. Summary Statistics
 
-*Using Pivot table we do a summary to see changes in access to basic services and unemploment rates over time and also visualize the changes using a line chart, from our observation we can see that there are no significant changes over time.
+Basic statistical measures (maximum, minimum, median, and average) were calculated to better understand the data. This helped answer key questions such as:
+
+Which country has the highest unemployment rate?
+What is the average access to sanitation services?
+Which country has the lowest GDP?
+6. Outlier Detection
+
+Outliers were reviewed, particularly within economic indicators, to identify any extreme values that could impact the analysis.
+
+7. Regional Analysis
+
+Using pivot tables, a regional comparison was conducted. The analysis shows that:
+
+Sub-Saharan Africa has the lowest GDP
+It also has the lowest access to basic services
+It records the highest unemployment rates among the regions
+8. Trend Analysis
+
+Pivot tables and line charts were used to analyze changes in access to basic services and unemployment rates over time. Based on the observed trends, there were no significant changes during the period under review.
 
