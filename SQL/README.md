@@ -31,4 +31,20 @@ ROUND(AVG(Pct_managed_sanitation_services),2) AS avg_sanitation,
 RANK() OVER (ORDER BY AVG(Pct_managed_sanitation_services) DESC) AS sanitation_rank
 FROM united_nations.access_to_basic_services
 GROUP BY country_name;
+
+-----------------------------------------
+-- GDP VS Water Access
+
+SELECT 
+  (avg_xy - avg_x * avg_y) /
+  SQRT((avg_x2 - POW(avg_x,2)) * (avg_y2 - POW(avg_y,2))) AS water_gdp_corr
+FROM (
+  SELECT 
+    AVG(Est_gdp_in_billions * Pct_managed_drinking_water_services) AS avg_xy,
+    AVG(Est_gdp_in_billions) AS avg_x,
+    AVG(Pct_managed_drinking_water_services) AS avg_y,
+    AVG(POW(Est_gdp_in_billions,2)) AS avg_x2,
+    AVG(POW(Pct_managed_drinking_water_services,2)) AS avg_y2
+  FROM united_nations.access_to_basic_services
+) stats;
 ```
