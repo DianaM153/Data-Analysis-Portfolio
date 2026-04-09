@@ -48,7 +48,13 @@ FROM (
   FROM united_nations.access_to_basic_services
 ) stats;
 
--- My Sql Workbench did not support CORR and I then had to compute CORR manually as seen above, The objective is to understand the correlation between GDP And Access to water services, we got a result of 0.10, this says there is a weak relationship between the two and we can't really conclude that a high GDP means they have better access to services, other factors such as infrastructure, governance, and population distribution,may play a more significant role.
+-- My Sql Workbench did not support CORR and I then had to compute CORR manually as seen above, The objective is to understand the
 
-```
+correlation between GDP And Access to water services, we got a result of 0.10, this says there is a weak relationship between the two
+
+and we can't really conclude that a high GDP means they have better access to services, other factors such as infrastructure,
+
+governance, and population distribution,may play a more significant role.
+
+
 
