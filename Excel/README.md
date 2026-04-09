@@ -1,4 +1,4 @@
---Data Cleaning And Pre-processing
+Data Cleaning And Pre-processing
 
 The dataset was prepared and explored to ensure it was suitable for analysis. The key steps are outlined below:
 
