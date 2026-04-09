@@ -52,6 +52,20 @@ FROM (
 -- correlation between GDP And Access to water services, we got a result of 0.10, this says there is a weak relationship between
 -- the two and we can't really conclude that a high GDP means they have better access to services, other factors such as infrastructure,
 --governance, and population distribution,may play a more significant role.
-```
 
+-----------------------------------------
+-- Population VS Basic Services Access
+-- Question is Do Larger Populations face greater challenges providing basic services abd vice versa?
+
+SELECT 
+  CASE 
+    WHEN Est_population_in_millions < 10 THEN 'Small'
+    WHEN Est_population_in_millions BETWEEN 10 AND 100 THEN 'Medium'
+    ELSE 'Large'
+  END AS population_category,
+  AVG(Pct_managed_drinking_water_services) AS avg_water_access,
+  AVG(Pct_managed_sanitation_services) AS avg_sanitation_access
+FROM united_nations.access_to_basic_services
+GROUP BY population_category;
+```
 
