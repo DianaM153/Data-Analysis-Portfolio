@@ -36,6 +36,7 @@ Using pivot tables, a regional comparison was conducted. The analysis shows that
 Sub-Saharan Africa has the lowest GDP
 It also has the lowest access to basic services
 It records the highest unemployment rates among the regions
+
 8. Trend Analysis
 
 Pivot tables and line charts were used to analyze changes in access to basic services and unemployment rates over time. Based on the observed trends, there were no significant changes during the period under review.
