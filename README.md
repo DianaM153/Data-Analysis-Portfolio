@@ -1,4 +1,4 @@
-# Global Access to Basic Services: A Data Analysis
+# Global Access to Basic Services
 
 ## Project Overview
 
